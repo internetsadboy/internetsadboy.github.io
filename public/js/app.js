@@ -11,38 +11,12 @@ window.mobilecheck = function mobilecheck () {
 $(document).ready(function onReady () {
 
   if (window.mobilecheck()) {
-    $('.sentence').css('margin-left', '-145px');
-    $('.letter').css('font-size', '22px');
+    $('#isb').css('margin-left', '-42.5px');
   }
-
-  setTimeout(function onTimeout () {
-
-    // Animate "hello"
-    $('#h').animate({ left: '0px' }, 1200);
-    $('#e1').animate({ top: '0px' }, 1000);
-    $('#l1').animate({ bottom: '0px' }, 1000);
-    $('#l2').animate({ right: '0px' }, 1000);
-    $('#o1').animate({ bottom: '0px' }, 1200);
-
-    // Animate "cruel"
-    $('#c').animate({ left: '0px' }, 1800);
-    $('#r1').animate({ top: '0px' }, 1500);
-    $('#u').animate({ bottom: '0px' }, 1500);
-    $('#e2').animate({ right: '0px' }, 1500);
-    $('#l3').animate({ bottom: '0px' }, 1800);
-
-    // Animate "world"
-    $('#w').animate({ left: '0px' }, 2200);
-    $('#o2').animate({ top: '0px' }, 2000);
-    $('#r2').animate({ bottom: '0px' }, 2000);
-    $('#l4').animate({ right: '0px' }, 2000);
-    $('#d').animate({ bottom: '0px' }, 2400);
-
-  }, 1500);
 
   // Footer transition :P
   setTimeout(function onTimeout () {
     $('footer').fadeIn('slow');
-  }, 6000);
+  }, 4000);
 
 });

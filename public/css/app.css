@@ -1,11 +1,16 @@
 /* General */
-html, body, #container {
-  height: 100%;
-}
-
 #container {
   border: 0px solid red;
   margin: 0px 100px;
+}
+
+#isb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -59px;
+  margin-top: -50px;
+  height: 100px;
 }
 
 footer {
@@ -16,30 +21,6 @@ footer {
   padding: 0 10px;
 }
 
-.sentence {
-  border: 0px solid orange;
-  height: 29px;
-  width: 305px;
-  position: relative;
-  left: 50%;
-  margin-left: -152.5px;
-  top: 50%;
-  margin-top: -25px;
-}
-
-.letter {
-  border: 0px solid blue;
-  font-family: courier;
-  font-size: 24px;
-  position: relative;
-}
-
-.word {
-  position: relative;
-  left: 0px;
-  float: left;
-  margin-right: 20px;
-}
 
 ul, li, .img {
   float: left;
@@ -72,42 +53,8 @@ li a:hover {
   margin-top: 7px;
 }
 
-#img-med {
+#img-yt {
   margin-top: 2px;
-}
-
-/* Hello: Letters */
-#h {
-  left: -525px;
-}
-
-#c {
-  left: -700px;
-}
-
-#w {
-  left: -875px;
-}
-
-#e1, #r1, #o2 {
-  top: -360px;
-}
-
-#l1, #u, #r2 {
-  bottom: -360px;
-}
-
-#l2, #e2, #l4 {
-  right: -760px;
-}
-
-#o1, #l3, #d {
-  bottom: -360px;
-}
-
-/* World: Text */
-#world {
-  margin-right: 0;
 }
 
 .hide {
