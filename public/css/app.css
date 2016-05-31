@@ -1,0 +1,130 @@
+/* General */
+html, body, #container {
+  height: 100%;
+}
+
+#container {
+  border: 0px solid red;
+  margin: 0px 100px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border: 0px solid black;
+  padding: 0 10px;
+}
+
+.sentence {
+  border: 0px solid orange;
+  height: 29px;
+  width: 305px;
+  position: relative;
+  left: 50%;
+  margin-left: -152.5px;
+  top: 50%;
+  margin-top: -25px;
+}
+
+.letter {
+  border: 0px solid blue;
+  font-family: courier;
+  font-size: 24px;
+  position: relative;
+}
+
+.word {
+  position: relative;
+  left: 0px;
+  float: left;
+  margin-right: 20px;
+}
+
+ul, li, .img {
+  float: left;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-family: courier;
+  margin: 0 9px;
+  padding: 2px;
+}
+
+li a:hover {
+  background-color: black;
+  color: white;
+  padding: 2px;
+}
+
+/* Footer: Image Stuff */
+.img {
+  padding: 5px;
+}
+
+#img-twtr {
+  margin-top: 7px;
+}
+
+#img-med {
+  margin-top: 2px;
+}
+
+/* Hello: Letters */
+#h {
+  left: -525px;
+}
+
+#c {
+  left: -700px;
+}
+
+#w {
+  left: -875px;
+}
+
+#e1, #r1, #o2 {
+  top: -360px;
+}
+
+#l1, #u, #r2 {
+  bottom: -360px;
+}
+
+#l2, #e2, #l4 {
+  right: -760px;
+}
+
+#o1, #l3, #d {
+  bottom: -360px;
+}
+
+/* World: Text */
+#world {
+  margin-right: 0;
+}
+
+.hide {
+  display: none;
+}
+
+/* Blog & Stuff Page */
+.notification-coming-soon {
+  font-family: monospace;
+  font-size: 15px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}

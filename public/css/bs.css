@@ -1,0 +1,79 @@
+/**
+ * Note: Styles that correspond to /public/bs/bs.html
+ * Date: 8-3-15
+ */
+
+#container {
+  border: 0px solid red;
+  margin: 30px 45px;
+}
+
+body {
+  font-family: monospace;
+}
+
+.bs-component h1 {
+  font-size: 28px;
+}
+
+.li-hyperlink {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  margin: 15px 0;
+  list-style-type: lower-greek;
+  font-size: 14px;
+}
+
+.category { font-weight: none; letter-spacing: 0.5px}
+
+.category-design { color: #AB90DA; }
+.category-game { color: #ff741a; }
+.category-code { color: #26c767; }
+.category-writing { color: #2998ff; }
+
+.hyperlink-game,
+.hyperlink-design,
+.hyperlink-code,
+.hyperlink-writing {
+  padding: 2px 5px;
+}
+
+.hyperlink-game:hover {
+  background-color: #ff741a;
+  color: white;
+}
+
+.hyperlink-design:hover {
+  background-color: #AB90DA;
+  color: white;
+}
+
+.hyperlink-code:hover {
+  background-color: #26c767;
+  color: white;
+}
+
+.hyperlink-writing:hover {
+  background-color: #2998ff;
+  color: white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer section {
+  margin: 30px;
+  margin-bottom: 18px;
+  float: right;
+}
+
+#img-heart {
+  height: 40px;
+  width: 28px;
+}
